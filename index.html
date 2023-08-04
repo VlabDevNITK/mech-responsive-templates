@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE_RESPONSIVE</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 62.5%;
+      line-height: 1.6;
+    }
+    .container {
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    h1 {
+      margin-bottom: 2rem;
+    }
+    .themes {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .theme {
+      width: 10rem;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position: relative;
+    }
+    .theme:nth-child(1) {
+      background-color: #2e1065;
+      color: #e2e8f0;
+      border: 0.5rem solid #a5b4fc;
+    }
+    .theme:nth-child(2) {
+      background-color: #5d9559;
+      color: #f2ffde;
+      border: 0.5rem solid #d3fca5;
+    }
+    .theme:nth-child(3) {
+      background-color: #02243b;
+      color: #f1f4f8;
+      border: 0.5rem solid #b5bbbf;
+    }
+    .theme:nth-child(4) {
+      background: linear-gradient(
+        to bottom,
+        #f8c98c,
+        hsl(48, 83%, 82%),
+        #f8c98c
+      );
+      color: #000000;
+      border: 0.5rem solid #f0ffc1;
+    }
+    .theme:nth-child(5) {
+      background-color: #561131;
+      color: #f0f3f7;
+      border: 0.5rem solid #b5bbbf;
+    }
+    .theme:nth-child(6) {
+      background-color: #527a4a;
+      color: #000000;
+      border: 0.5rem solid #ecf7ea;
+    }
+    
+    .theme:nth-child(7) {
+      background: linear-gradient(
+        to bottom,
+        #d3defa,
+        hsl(204, 93%, 71%),
+        #a2bafc
+      );
+      color: #000000;
+      border: 0.5rem solid #6363da;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    @media (max-width: 44em) {
+      .container {
+        font-size: 1rem;
+      }
+    }
+    .theme span{
+      position: absolute;
+      padding: 0.5rem;
+      background-color: #fd8e39d5;
+      color:#060606;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -4rem;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 49% 81%, 0% 100%, 0 48%, 0% 0%);
+      clip-path: polygon(100% 0, 100% 100%, 49% 81%, 0% 100%, 0 48%, 0% 0%);
+      text-align: center;
+      border-radius: 0.4rem;
+    }
+    
+  </style>
+  <body>
+    <div class="container">
+      <h1>Mechanical Responsive Templates</h1>
+      <div class="themes">
+        <div class="theme">
+          <a href="./version_1/index.html" target="_blank">Theme 1</a>
+          <span>Votes <br/> <strong>6</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_2/index.html" target="_blank">Theme 2</a>
+          <span>Votes <br/> <strong>3</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_3/index.html" target="_blank">Theme 3</a>
+          <span>Votes <br/> <strong>5</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_4/index.html" target="_blank">Theme 4</a>
+          <span>Votes <br/> <strong>3</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_5/index.html" target="_blank">Theme 5</a>
+          <span>Votes <br/> <strong>1</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_6/index.html" target="_blank">Theme 6</a>
+          <span>Votes <br/> <strong>4</strong></span>
+        </div>
+        <div class="theme">
+          <a href="./version_8/index.html" target="_blank">Theme 7</a>
+          <span>Votes <br/> <strong>7</strong></span>
+        </div>
+        
+    </div>
+  </body>
+</html>
